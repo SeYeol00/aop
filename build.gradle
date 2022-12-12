@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
-    // aop를 쓰기 위해서 필요한 라이브러리
+    // aop를 쓰기 위해서 필요한 라이브러리, 직접 입력
     implementation 'org.springframework.boot:spring-boot-starter-aop'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
